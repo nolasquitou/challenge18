@@ -4,7 +4,7 @@
 //Si las RPM están entre 1000 y 3000 debe mantener
 //Si las RPM son más de 3000 debe subir
 
-let rpm = prompt("ingrese las RPM a las que va")
+let rpm = prompt("ingrese las RPM a las que va");
 
 if(rpm <= 1000){
     console.log(`Baja un cambio`);
